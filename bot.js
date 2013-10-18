@@ -2,9 +2,12 @@
  * TERMS OF REPRODUCTION USE
  *
  * Failure to follow these terms will result in me getting very angry at you
- * and having your software tweaked or removed if possible.  Either way, you're
- * still an idiot for not following such a basic rule, at least I'll have
- * a way track you down!
+ * and having your software tweaked or removed if possible. Either way, you're
+ * still an idiot for not following such a basic rule. 
+ * NO EVENT SHALL THE AUTHORS
+ * BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER
+ * RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
  */
 
@@ -12,7 +15,7 @@
  * NOTE:  PLEASE CONTACT DJ-NEON FOR THIS SCRIPT (DO NOT CHANGE ANYTHING ON THIS SCRIPT OR USE THIS SCRIPT WHICH WAS WRITTEN BY 
  * IT'S RIGHTFUL OWNER: DJ NOEN)
  *
- * @Author 	Tawi - DJ Neon (Member. on Plug.dj)
+ * @Author         Tawi Jordan - ๖ۣۜĐJ - ɴᴇᴏɴ - TFL (Member. on Plug.dj)
  */
 
 
