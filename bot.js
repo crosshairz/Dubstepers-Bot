@@ -13,7 +13,7 @@ toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
 mubBot.misc.version = "2.0.28";
-mubBot.misc.origin = "This bot was created by Redstoner and DJ-Neon alone, and it is copyrighted!";
+mubBot.misc.origin = "This bot was created by Redstoner, DJ-Neon, Alexander7370, Foxdemon143, and it is copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
 mubBot.misc.lockSkipping = false;
@@ -181,11 +181,11 @@ botMethods.djAdvanceEvent = function(data){
                         
                     case "usercommands":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("User Commands - http://goo.gl/GErBae");
+                            API.sendChat("User Commands - Not Available Yet");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" User Commands - http://goo.gl/GErBae");
+                            API.sendChat(command[1]+" User Commands - Not Available Yet");
                         }else{
-                            API.sendChat("User Commands - http://goo.gl/GErBae");
+                            API.sendChat("User Commands - Not Availble Yet");
                         }
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
@@ -195,11 +195,11 @@ botMethods.djAdvanceEvent = function(data){
                         
                     case "modcommands":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("Mods Commands - http://goo.gl/P5bfbJ");
+                            API.sendChat("Mods Commands - Not Available Yet");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" Mods Commands - http://goo.gl/P5bfbJ");
+                            API.sendChat(command[1]+" Mods Commands - Not Available Yet");
                         }else{
-                            API.sendChat("Mods Commands - http://goo.gl/P5bfbJ");
+                            API.sendChat("Mods Commands - Not Available Yet");
                         }
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
@@ -209,11 +209,11 @@ botMethods.djAdvanceEvent = function(data){
 
                     case "users":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("User List - http://rscommands.blogspot.com/");
+                            API.sendChat("User List - Not Available Yet");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" User List - http://rscommands.blogspot.com/");
+                            API.sendChat(command[1]+" User List - Not Available Yet");
                         }else{
-                            API.sendChat("User List - http://rscommands.blogspot.com/");
+                            API.sendChat("User List - Not Available Yet");
                         }
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
@@ -248,11 +248,11 @@ botMethods.djAdvanceEvent = function(data){
 
                     case "link":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("Our Web - http://redstoner.com/");
+                            API.sendChat("Our Web - Not Available Yet");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" Our Web - http://redstoner.com/");
+                            API.sendChat(command[1]+" Our Web - Not Available Yet");
                         }else{
-                            API.sendChat("Our Web - http://redstoner.com/");
+                            API.sendChat("Our Web - Not Available Yet");
                         }
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
@@ -262,11 +262,11 @@ botMethods.djAdvanceEvent = function(data){
 
                     case "twitter":
                         if(typeof command[1] == "undefined"){
-                            API.sendChat("Twitter - https://twitter.com/RedstonerServer");
+                            API.sendChat("Twitter - Not Available Yet");
                         }else if(command[1].indexOf("@") > -1){
-                            API.sendChat(command[1]+" Twitter - https://twitter.com/RedstonerServer");
+                            API.sendChat(command[1]+" Twitter - Not Available Yet");
                         }else{
-                            API.sendChat("Twitter - https://twitter.com/RedstonerServer");
+                            API.sendChat("Twitter - Not Available Yet");
                         }
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
@@ -304,7 +304,7 @@ botMethods.djAdvanceEvent = function(data){
                         break;
 
                     case "source":
-                        API.sendChat("@"+data.from+ " https://github.com/TawiBoii05/Redstoner-Bot");
+                        API.sendChat("@"+data.from+ " Not Available");
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
                             setTimeout(function(){ mubBot.misc.ready = true; }, mubBot.settings.cooldown * 1000);
@@ -447,7 +447,7 @@ botMethods.djAdvanceEvent = function(data){
                         break;
 
                     case "version":
-                        API.sendChat("RedstonerBot  version " + mubBot.misc.version);
+                        API.sendChat("Dubstepers-Bot version " + mubBot.misc.version);
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
                             mubBot.misc.ready = false;
                             setTimeout(function(){ mubBot.misc.ready = true; }, mubBot.settings.cooldown * 1000);
