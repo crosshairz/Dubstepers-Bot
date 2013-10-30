@@ -12,7 +12,7 @@ toSave.settings = mubBot.settings;
 toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
-mubBot.misc.version = "2.0.28";
+mubBot.misc.version = "1.0.1";
 mubBot.misc.origin = "This bot was created by Redstoner, DJ-Neon, Alexander7370, Foxdemon143, and it is copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
@@ -988,4 +988,4 @@ botMethods.djAdvanceEvent = function(data){
         });
     }, 3000);
 
-    API.sendChat('/me : Running Rᴇᴅsᴛᴏɴᴇʀ Script '+mubBot.misc.version)
+    API.sendChat('/me : Running Dubstepers Script '+mubBot.misc.version)
