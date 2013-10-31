@@ -167,13 +167,6 @@ botMethods.djAdvanceEvent = function(data){
                         }
                         break;
                         
-                    case "check"
-                        if(API.getTimeRemaining() <= TimeLimit){
-                            API.moderateForceSkip()
-                        }else{
-                            API.sendChat("Song is not over time limit")
-                        };
-                    break
                     
                     case "weird":
                     case "weirdday":
