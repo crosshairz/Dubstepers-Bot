@@ -12,6 +12,7 @@ toSave.settings = mubBot.settings;
 toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
+mubBot.misc.Rules = "1. Rule#1 2.Rule#2";
 mubBot.misc.version = "1.0.2";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
@@ -31,7 +32,7 @@ mubBot.filters.beggerWords = new Array();
 mubBot.settings.maxLength = 5; //minutes
 mubBot.settings.cooldown = 10; //seconds
 mubBot.settings.staffMeansAccess = true;
-mubBot.settings.historyFilter = true;
+mubBot.settings.historyFilter = false;
 mubBot.settings.swearFilter = true;
 mubBot.settings.racismFilter = true;
 mubBot.settings.beggerFilter = true;
