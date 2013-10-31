@@ -445,6 +445,9 @@ botMethods.djAdvanceEvent = function(data){
                         }
                         botMethods.save();
                         break;
+                    case "rules":
+                        API.sendChat("Rules:")
+                    break
 
                     case "version":
                         API.sendChat("Dubstepers-Bot version " + mubBot.misc.version);
