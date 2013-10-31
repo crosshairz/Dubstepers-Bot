@@ -14,7 +14,7 @@ toSave.ruleSkip = ruleSkip;
 
 mubBot.misc.Rules = "1.Do Not Play Troll Songs";
 mubBot.misc.Themes = "Dubstep, Remix's, and techno";
-mubBot.misc.version = "1.0.2";
+mubBot.misc.version = "1.0.3";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
