@@ -447,7 +447,7 @@ botMethods.djAdvanceEvent = function(data){
                         botMethods.save();
                         break;
                     case "rules":
-                        API.sendChat("Rules:")
+                        API.sendChat("Rules: " + mubBot.misc.Rules);
                     break
 
                     case "version":
