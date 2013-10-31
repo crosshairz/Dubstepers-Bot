@@ -166,6 +166,16 @@ botMethods.djAdvanceEvent = function(data){
                             setTimeout(function(){ mubBot.misc.ready = true; }, mubBot.settings.cooldown * 1000);
                         }
                         break;
+                        
+                    case "check"
+                        API.getTimeRemaining(TimeRemaining);
+                        if(TimeRemaining <= TimeLimit){
+                            API.moderateForceSkip()
+                        }else{
+                            API.sendChat("Song is not over time limit")
+                        }
+                    break
+                    
                     case "weird":
                     case "weirdday":
                     case "wierd":
