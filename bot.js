@@ -13,7 +13,7 @@ toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
 mubBot.misc.Rules = "1.Do Not Play Troll Songs";
-mubBot.misc.Commands = "go to BLANK"
+mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
 mubBot.misc.Themes = "Dubstep, Remix's, and techno";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
 mubBot.misc.version = "1.0.5";
