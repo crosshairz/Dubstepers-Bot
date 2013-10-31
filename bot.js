@@ -13,7 +13,7 @@ toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
 mubBot.misc.version = "1.0.1";
-mubBot.misc.origin = "This bot was created by Redstoner, DJ-Neon, Alexander7370, Foxdemon143, and it is copyrighted!";
+mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
 mubBot.misc.lockSkipping = false;
