@@ -12,7 +12,8 @@ toSave.settings = mubBot.settings;
 toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
-mubBot.misc.Rules = "1. Rule#1 2.Rule#2";
+mubBot.misc.Rules = "1.Do Not Play Troll Songs 
+mubBot.misc.Themes = "Dubstep, Remix's, and techno"
 mubBot.misc.version = "1.0.2";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
@@ -449,7 +450,11 @@ botMethods.djAdvanceEvent = function(data){
                     case "rules":
                         API.sendChat("Rules: " + mubBot.misc.Rules);
                     break
-
+                    
+                    case "themes":
+                        API.sendChat("The different themes aloud songs are: " + mubBot.misc.Themes);
+                    break
+                    
                     case "version":
                         API.sendChat("Dubstepers-Bot version " + mubBot.misc.version);
                         if(mubBot.admins.indexOf(fromID) == -1 || API.getUser(fromID).permission < 2){
