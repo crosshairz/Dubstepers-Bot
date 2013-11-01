@@ -16,7 +16,7 @@ mubBot.misc.Rules = "1.Do Not Play Troll Songs 2.Do Not Ask For Ranks 3.Follow T
 mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
 mubBot.misc.Themes = "Dubstep, Remix's, and techno";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
-mubBot.misc.version = "1.0.5";
+mubBot.misc.version = "1.0.7";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
@@ -65,10 +65,10 @@ function djAdvanceEvent(data){
     setTimeout(function(){ botMethods.djAdvanceEvent(data); }, 500);
 }
 
-API.on(API.USER_JOIN, callback);
-function callback(user)
+API.on(API.USER_JOIN, UserJoin);
+function UserJoin(user)
 {
-API.sendChat(user.username + " joined the room");
+API.sendChat("@" + user.username + " Welcome to Dubstepers");
 }
 
 botMethods.skip = function(){
