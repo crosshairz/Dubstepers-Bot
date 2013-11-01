@@ -66,7 +66,7 @@ function djAdvanceEvent(data){
 }
 
 API.on(API.USER_JOIN, UserJoin){
-alert(UserJoin.username + " joined the room");
+alert(UserJoin.username + "joined the room");
 };
 
 botMethods.skip = function(){
