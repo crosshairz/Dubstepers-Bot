@@ -67,7 +67,7 @@ function djAdvanceEvent(data){
 
 API.on(API.USER_JOIN, UserJoin){
     function UserJoin(user){
-alert(user.username + " joined the room");
+alert(UserJoin.username + " joined the room");
 }
 };
 
