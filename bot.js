@@ -65,6 +65,12 @@ function djAdvanceEvent(data){
     setTimeout(function(){ botMethods.djAdvanceEvent(data); }, 500);
 }
 
+API.on(API.USER_JOIN, UseJoin);
+function UserJoin(user)
+{
+alert(user.username + " joined the room");
+}
+
 botMethods.skip = function(){
     setTimeout(function(){
         if(!cancel) API.moderateForceSkip();
