@@ -44,7 +44,7 @@ mubBot.settings.ruleSkip = true;
 mubBot.settings.removedFilter = true;
 
 //Redstoner              [DJ-NEON]                  [Redstoner-bot]
-mubBot.admins = ["50aeaeb6c3b97a2cb4c25bd2", "524b568f3e083e4f2be7356e"];
+mubBot.admins = ["50aeaeb6c3b97a2cb4c25bd2", "524b568f3e083e4f2be7356e", "5214f9e196fba51fda062ea7"];
 
 mubBot.filters.swearWords = ["slut","mofo","penis","penus","fuck","shit","bitch","cunt","twat","faggot","queer","dumbass","pussy","dick","cocksucker","asshole","vagina","tit","mangina","tits","cock","jerk","puta","puto"];
 
