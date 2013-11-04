@@ -1610,7 +1610,7 @@
   handleUserJoin = function(user) {
     data.userJoin(user);
     data.users[user.id].updateActivity();
-    return API.sendChat("Welcome to Redstoner @" + user.username + " Type !rules to see room's Rule. And follow us on Twitter http://goo.gl/FKnst6.");
+    return API.sendChat("Welcome to Redstoner @" + user.username + " Type !rules to see room's Rules. ");
   };
 
   handleNewSong = function(obj) {
