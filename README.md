@@ -3,10 +3,10 @@ Permission to use or edit is not accepted without written permission by the auth
 
 Dubsteper's
 ==========
-A bot script for http://plug.dj/
+A bot script for http://plug.dj/dubstepers-4
 
 
-Copyright © 2012-2013 by DJ NEON.
+Copyright © 2012-2013 by Alexander7370 and foxdemon143
 
 Permission to copy and/or edit this software or parts of it for any purpose is permitted,
 provided that the following points are followed.
