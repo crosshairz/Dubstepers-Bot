@@ -340,7 +340,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me : Started RedStoner Script. About Damn Time!");
+    return API.sendChat("/me : Started Dubstepers Script!");
   };
 
   populateUserData = function() {
@@ -704,8 +704,8 @@
 
     themeCommand.prototype.functionality = function() {
       var msg;
-      msg = "Any type of Music is allowed here. Including Dubstep, Complextro, Drum and Bass, ";
-      msg += "Garage, Breakbeat, Hardstyle, Moombahton, HEAVY EDM, House, Electro, and Trance, Reggae and More! Just be sure your song is under 5 min.";
+      msg = "Dubstep, techno, and elctro are allowed here. ";
+      msg += "Just be sure your song is under 5 min.";
       return API.sendChat(msg);
     };
 
@@ -755,7 +755,7 @@
 
     roomHelpCommand.prototype.functionality = function() {
       var msg1, msg2;
-      msg1 = "Welcome to Redstoner! Create a playlist and populate it with songs from either YouTube or Soundcloud.  ";
+      msg1 = "Welcome to Dubsteper! Create a playlist and populate it with songs from either YouTube or Soundcloud.  ";
       msg1 += "Click the 'Join Waitlist' button and wait your turn to play music. Most electronic music allowed, type '/theme' for specifics.";
       msg2 = "Stay active while waiting to play your song or I'll remove you.  Play good quality music that hasn't been played recently (check room history).  ";
       msg2 += "Avoid over played artists like Skrillex. Ask a mod if you're unsure about your song choice";
