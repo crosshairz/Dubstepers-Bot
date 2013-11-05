@@ -71,6 +71,12 @@ function UserJoin(user)
 API.sendChat("@" + user.username + " Welcome to Dubstepers");
 }
 
+API.on(API.CHAT_COMMAND, Chat.Command);
+function Chat.Command(imput)
+{
+alert(imput + ' typed as chat command');
+}
+
 botMethods.skip = function(){
     setTimeout(function(){
         if(!cancel) API.moderateForceSkip();
