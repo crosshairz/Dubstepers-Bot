@@ -471,6 +471,10 @@ botMethods.djAdvanceEvent = function(data){
                         API.sendChat(mubBot.misc.help);
                     break
                     
+                    case "derp":
+                        API.sendChat("Is ThIs DeRpY eNoUgH fOr YoU http://i.imgur.com/MqTfoHg.png");
+                    break
+                    
                     case "commands":
                     case "command":
                         API.sendChat(mubBot.misc.Commands);
