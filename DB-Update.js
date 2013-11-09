@@ -27,7 +27,7 @@ API.on(API.CHAT, function(data){
                 switch(command[0].toLowerCase()){
                   
                   case "ping"
-                    API.sendChat("TEST");
+                    API.sendChat('Test');
                   break
                }
             };
