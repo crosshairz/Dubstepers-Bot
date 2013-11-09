@@ -24,11 +24,11 @@ API.on(API.CHAT, function(data){
                 }
             }
             
-                switch(command[0].toLowerCase()){
+                
                   
-                  case "ping"
-                    API.sendChat('Test');
-                  break
-                }
+                  if(command[0] = "ping"){
+                    API.sendChat("@"+data.from+" PONG");
+                  }
+                
         }
     });
