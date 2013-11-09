@@ -29,5 +29,7 @@ API.on(API.CHAT, function(data){
                   case "ping"
                     API.sendChat('Test');
                   break
-               }
-            };
+                }
+            }
+        }
+    });
