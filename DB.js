@@ -25,17 +25,19 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            
-                if(command[0] == "ping"){
+            switch(command[0].toLowerCase()){
+                    
+                case"ping")
                         API.sendChat("@"+data.from+" PONG");
-                };//PING END
+                break//PING END
                 
-                if(command[0] == "info"){
+                case"info"){
                         API.sendChat("WORK IN PROGRESS COMMAND");
-                };//INFO END
+                break//INFO END
                 
-                if(command[0] == "getid"){
+                case"getid"){
                         API.sendChat(data.fromID); 
-                };//GETID END
+                break//GETID END
         }
-    });
+}
+});
