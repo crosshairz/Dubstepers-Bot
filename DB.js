@@ -29,15 +29,15 @@ API.on(API.CHAT, function(data){
                     
                 case"ping"
                         API.sendChat("@"+data.from+" PONG");
-                break//PING END
+                break;//PING END
                 
                 case"info"
                         API.sendChat("WORK IN PROGRESS COMMAND");
-                break//INFO END
+                break;//INFO END
                 
                 case"getid"
                         API.sendChat(data.fromID); 
-                break//GETID END
+                break;//GETID END
         }
 }
 });
