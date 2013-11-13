@@ -25,19 +25,20 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            switch(command[0].toLowerCase()){
+            switch(command[0].toLowerCase() ){
                     
-                case"ping"
+                case"ping":
                         API.sendChat("@"+data.from+" PONG");
-                break;//PING END
+                break//PING END
                 
-                case"info"
+                case"info":
                         API.sendChat("WORK IN PROGRESS COMMAND");
-                break;//INFO END
+                break//INFO END
                 
-                case"getid"
+                case"getid":
                         API.sendChat(data.fromID); 
-                break;//GETID END
+                break//GETID END
+        
+        }//End of Commands
         }
-}
-});
+});//COMMAND END!!!!
