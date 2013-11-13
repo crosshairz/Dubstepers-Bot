@@ -11,7 +11,7 @@ mubBot.pubVars = {};
 
 var BootMessage
 
-API.sendChat('/me : Running Dubstepers Script Version 1.0.1');
+API.sendChat('/me : Running Dubstepers Script Version 2.0.1');
 
 
 
