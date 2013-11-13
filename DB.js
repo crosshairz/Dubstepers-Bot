@@ -9,11 +9,13 @@ mubBot.filters = {};
 botMethods = {};
 mubBot.pubVars = {};
 
+var BootMessage
+
 API.sendChat('/me : Running Dubstepers Script Version 1.0.1');
 
 
 
-
+//COMMANDZ
 API.on(API.CHAT, function(data){
         if(data.message.indexOf('!') === 0){
             var msg = data.message, from = data.from, fromID = data.fromID;
@@ -24,11 +26,16 @@ API.on(API.CHAT, function(data){
                 }
             }
             
+                if(command[0] == "ping"){
+                        API.sendChat("@"+data.from+" PONG");
+                };//PING END
                 
-                  
-                  if(command[0] = "ping"){
-                    API.sendChat("@"+data.from+" PONG");
-                  }
+                if(command[0] == "info"){
+                        API.sendChat("WORK IN PROGRESS COMMAND");
+                };//INFO END
                 
+                if(command[0] == "getid"){
+                        API.sendChat(data.fromID); 
+                };//GETID END
         }
     });
