@@ -42,7 +42,7 @@ API.on(API.CHAT, function(data){
                         API.sendChat(data.fromID); 
                 break//GETID END
                 
-                case"swapup"
+                case"swapup":
                         if(data.fromID == "5214f9e196fba51fda062ea7"){
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
                         };
