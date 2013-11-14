@@ -44,17 +44,13 @@ API.on(API.CHAT, function(data){
                 case"swapup"
                 if(data.from == "5214f9e196fba51fda062ea7"){
                         API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
-                } else {
-                        API.sendChat("Not Enough Permissions")
-                }
+                };
                 break
                 
                 case"swapdown"
                 if(data.fromID == "5214f9e196fba51fda062ea7")
                         API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
-                } else {
-                        API.sendChat("Not Enough Permissions")
-                }
+                };
                 break//
         
         }//End of Commands
