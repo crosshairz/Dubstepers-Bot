@@ -26,6 +26,8 @@ API.on(API.CHAT, function(data){
                 }
             }
             
+            API.moderateDeleteChat(data.chatID);
+            
             switch(command[0].toLowerCase() ){
                     
                 case"ping":
@@ -41,7 +43,7 @@ API.on(API.CHAT, function(data){
                 break//GETID END
                 
                 case"swapup"
-                        if(data.from == "5214f9e196fba51fda062ea7"){
+                        if(data.fromID == "5214f9e196fba51fda062ea7"){
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
                         };
                 break
