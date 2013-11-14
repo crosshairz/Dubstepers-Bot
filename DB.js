@@ -42,17 +42,17 @@ API.on(API.CHAT, function(data){
                         API.sendChat(data.fromID); 
                 break//GETID END
                 
-                case"swapup"
-                        if(data.fromID == ("5214f9e196fba51fda062ea7")){
-                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
-                        };
-                break
+        //        case"swapup"
+        //                if(data.fromID == "5214f9e196fba51fda062ea7"){
+        //                        API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
+        //                };
+        //        break
                 
-                case"swapdown"
-                        if(data.fromID == "5214f9e196fba51fda062ea7")
-                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
-                        };
-                break//
+        //        case"swapdown"
+        //                if(data.fromID == "5214f9e196fba51fda062ea7")
+        //                        API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
+        //                };
+        //        break//
         
         }//End of Commands
         }
