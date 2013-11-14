@@ -42,15 +42,15 @@ API.on(API.CHAT, function(data){
                 break//GETID END
                 
                 case"swapup"
-                if(data.from == "5214f9e196fba51fda062ea7"){
-                        API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
-                };
+                        if(data.from == "5214f9e196fba51fda062ea7"){
+                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
+                        };
                 break
                 
                 case"swapdown"
-                if(data.fromID == "5214f9e196fba51fda062ea7")
-                        API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
-                };
+                        if(data.fromID == "5214f9e196fba51fda062ea7")
+                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
+                        };
                 break//
         
         }//End of Commands
