@@ -43,13 +43,13 @@ API.on(API.CHAT, function(data){
                 break//GETID END
                 
                 case"swapup":
-                        if(data.fromID == "5214f9e196fba51fda062ea7"){
+                        if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12"){
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
                         };
                 break
                 
                 case"swapdown":
-                        if(data.fromID == "5214f9e196fba51fda062ea7")
+                        if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12")
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
                         };
                 break//
