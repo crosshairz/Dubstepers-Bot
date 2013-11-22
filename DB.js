@@ -13,6 +13,19 @@ var BootMessage
 
 API.sendChat('/me : Running Dubstepers Script Version 2.0.1');
 
+getID = function(username){
+    var users = API.getUsers();
+    var result = "";
+    for(var i = 0; i < users.length; i++){
+        if(users[i].username === username){
+            result = users[i].id;
+            return result;
+        }
+    }
+
+    return "notFound";
+}; 
+
 
 
 //COMMANDZ
