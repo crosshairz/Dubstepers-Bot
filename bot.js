@@ -12,7 +12,7 @@ toSave.settings = mubBot.settings;
 toSave.moderators = mubBot.moderators;
 toSave.ruleSkip = ruleSkip;
 
-mubBot.misc.Rules = "1.Do Not Play Troll Songs 2.Do Not Ask For Ranks 3.Follow The Theme if not will result in skip";
+mubBot.misc.Rules = "1.Do not play troll songs 2.Do not ask for ranks 3.Follow the theme if not will result in skip 4.Don\'t spam 5.Have respect and use common sence 6.Advertising rooms, websites, etc. without moderator approval resul in getting kicked 7.No songs over 5 minutes (some songs a little bit over may be allowed but please ask a mod or above first) 8.All videos must be age appropriate for users under 14";
 mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
 mubBot.misc.Themes = "Dubstep, Remix's, and techno";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
