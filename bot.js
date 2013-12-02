@@ -68,7 +68,8 @@ function djAdvanceEvent(data){
 API.on(API.USER_JOIN, UserJoin);
 function UserJoin(user)
 {
-API.sendChat("@" + user.username + " Welcome to Dubstepers");
+API.sendChat("@" + user.username + " has joined the room.");
+API.sendChat("Please welcome" + "@" + user.username);
 }
 
 
