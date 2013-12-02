@@ -16,7 +16,7 @@ mubBot.misc.Rules = "1.Do not play troll songs 2.Do not ask for ranks 3.Follow t
 mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
 mubBot.misc.Themes = "Dubstep, Remix's, and techno";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
-mubBot.misc.version = "1.0.7";
+mubBot.misc.version = "1.0.8";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Added a secondary check for history";
 mubBot.misc.ready = true;
