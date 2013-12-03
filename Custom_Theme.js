@@ -2,4 +2,6 @@ API.chatLog("You are running a custom background now. Hopefully you like it! If 
 function initEnvironment(){
 }
 $(".background").html("<img src=\"http://img5.imageshack.us/img5/227/5y9c.png\" style=\"width: 921px; height: 285px; left: -218.5px;\">");
-$('head').append('<link rel="stylesheet" type="text/css" https://raw.github.com/Alexander7370/Dubstepers-Bot/master/Custom_Theme_pic.css">');
+$(background-image: url("http://downloadwallpaperhd.com/wp-content/uploads/2013/04/The-Cube-3D-HD-Wallpaper.jpg")!important; });
+
+
