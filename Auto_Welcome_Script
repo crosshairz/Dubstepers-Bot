@@ -1,7 +1,16 @@
 //AUTO WELCOME!!!
 
+String message = prompt("Message here the username will go at the end");
+
 API.on(API.USER_JOIN, function(data){
 
-API.sendMessage("Welcome to Dubstep @" + data.username
+if(message == null){
+API.sendMessage("Welcome to Dubstep @" + data.username);
+} else {
+API.sendMessage(message + " @" + data.username);
 
 }
+
+
+
+};
