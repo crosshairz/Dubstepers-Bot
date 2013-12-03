@@ -1,1 +1,7 @@
-()
+//AUTO WELCOME!!!
+
+API.on(API.USER_JOIN, function(data){
+
+API.sendMessage("Welcome to Dubstep @" + data.username
+
+}
