@@ -4,7 +4,7 @@
 
 //AUTO WELCOME!!!
 
-message = prompt("Message here the username will go at the end");
+String message = prompt("Message here the username will go at the end");
 
 API.on(API.USER_JOIN, function(data){
 
