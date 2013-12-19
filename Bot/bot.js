@@ -1,3 +1,4 @@
+//This is copywrited
 var mubBot = {};
 var ruleSkip = {};
 mubBot.misc = {};
