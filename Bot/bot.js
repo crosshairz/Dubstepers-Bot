@@ -165,6 +165,7 @@ botMethods.djAdvanceEvent = function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
+            API.moderateDeleteChat(data.chatID);
             if(mubBot.misc.ready || mubBot.admins.indexOf(fromID) > -1 || API.getUser(data.fromID).permission > 1){
                 switch(command[0].toLowerCase()){
                     case "ping":
