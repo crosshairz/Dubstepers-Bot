@@ -331,6 +331,7 @@ botMethods.djAdvanceEvent = function(data){
     });
 
     API.on(API.CHAT, function(data){
+        API.moderateDeleteChat(data.fromID);
         if(data.message.indexOf('!') === 0){
             var msg = data.message, from = data.from, fromID = data.fromID;
             var command = msg.substring(1).split(' ');
