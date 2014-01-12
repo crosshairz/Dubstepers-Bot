@@ -68,5 +68,4 @@ API.on(API.CHAT, function(data){
                 break//
         
         }//End of Commands
-        }
 });//COMMAND END!!!!
