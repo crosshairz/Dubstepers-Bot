@@ -9,7 +9,7 @@ mubBot.filters = {};
 botMethods = {};
 mubBot.pubVars = {};
 
-var BootMessage
+var BootMessage;
 
 API.sendChat('/me : Running Derpstepers Script Version 2.0.1');
 
