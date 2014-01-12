@@ -461,6 +461,14 @@ botMethods.djAdvanceEvent = function(data){
                         }
                         botMethods.save();
                         break;
+                    case "rankhelp":
+                        API.sendChat("To rank up: Come to this room often, Refer your friends, advertise this room, follow the rules, and be kind to the community.");
+                    break
+                    
+                    case "likeroom":
+                        API.sendChat("If you like this room: refer yoaur friends and add a bookmark/favorite to us in your browser.");
+                    break
+                    
                     case "rules":
                         API.sendChat("Rules: " + mubBot.misc.Rules);
                     break
