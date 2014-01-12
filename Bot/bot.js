@@ -222,7 +222,7 @@ botMethods.djAdvanceEvent = function(data){
                         }
                         break;
                         
-                         case"getid":
+                case"getid":
                         API.sendChat(data.fromID); 
                 break//GETID END
                 
