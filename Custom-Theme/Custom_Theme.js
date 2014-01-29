@@ -1,4 +1,4 @@
-API.chatLog("You are running a custom background now. We hope that you like it! If not, just refresh the page. (some code by Dubstepers)", true);
+API.chatLog("You are running a custom background now. We hope that you like it! If not, just refresh the page.", true);
 
 $(".background").html("<img src=\"http://i.imgur.com/CflADad.png\" style=\"width: 921px; height: 285px; left: -218.5px;\">");
 $('head').append('<link rel="stylesheet" type="text/css" href="http://www.gedankenwall.com/plugdj-chillroom-theme/2.css">');
