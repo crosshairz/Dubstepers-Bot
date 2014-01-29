@@ -14,8 +14,8 @@ if(data.message.indexOf('.') === 0){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-  switch(command[0].toLowerCase()){        
-case "on":
+  switch(command[0].toLowerCase()){
+      case "on":
 if(power == false){
 power = true;
 API.sendChat("GameBot is now ON");
@@ -32,7 +32,11 @@ API.sendChat("GameBot is now OFF");
  API.sendChat("GameBot is already OFF");           
 }    
 break;
-if(power){
+if(power)        
+  }
+  if(power){
+  switch(command[0].toLowerCase()){        
+
             case "ping":
                         API.sendChat("@"+data.from+ " PONG!");
             break;
@@ -41,8 +45,8 @@ if(power){
             
             
             
-}//END OF COMMANDS THAT RUN ONLY WHEN ON
-}}
+}}//END OF COMMANDS THAT RUN ONLY WHEN ON
+}
 
 
 })
