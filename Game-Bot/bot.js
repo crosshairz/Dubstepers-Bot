@@ -16,7 +16,7 @@ if(data.message.indexOf('G!') === 0){
             }
   switch(command[0].toLowerCase()){          
             
-case on:
+case "on":
 if(power == false){
 power = true;
 API.sendChat("GameBot is now ON");
@@ -24,7 +24,7 @@ API.sendChat("GameBot is now ON");
 API.sendChat("GameBot is already ON");
 }
  end           
-case off:
+case "off":
 if(power == true){
 power = false;
 API.sendChat("GameBot is now OFF");
