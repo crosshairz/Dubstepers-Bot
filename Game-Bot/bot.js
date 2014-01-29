@@ -23,7 +23,7 @@ API.sendChat("GameBot is now ON");
 }else{
 API.sendChat("GameBot is already ON");
 }
- end           
+ break;         
 case "off":
 if(power == true){
 power = false;
@@ -31,7 +31,7 @@ API.sendChat("GameBot is now OFF");
 }else{
  API.sendChat("GameBot is already OFF");           
 }    
-end
+break;
 }}
 
 
