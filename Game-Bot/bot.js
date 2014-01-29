@@ -6,7 +6,7 @@ Version = "1.0.1";
 API.sendChat("Running Derpsteper's-GameBot Script Version " + Version);
 
 API.on(API.CHAT, function(data){
-if(data.message.indexOf('G!') === 0){
+if(data.message.indexOf('G') === 0){
             var msg = data.message, from = data.from, fromID = data.fromID;
             var command = msg.substring(1).split(' ');
             if(typeof command[2] != "undefined"){
@@ -15,7 +15,10 @@ if(data.message.indexOf('G!') === 0){
                 }
             }
   switch(command[0].toLowerCase()){          
-            
+              
+              case "ping":
+                        API.sendChat("@"+data.from+ " PONG!");
+            break;
 case "on":
 if(power == false){
 power = true;
@@ -24,6 +27,7 @@ API.sendChat("GameBot is now ON");
 API.sendChat("GameBot is already ON");
 }
  break;         
+
 case "off":
 if(power == true){
 power = false;
