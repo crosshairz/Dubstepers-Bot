@@ -1,1 +1,10 @@
-body { background-image: url("http://i.imgur.com/HAmXiiM.png")!important; }
+body { background-image: url("http://i.imgur.com/Aov2J4z.png")!important; }
+
+/* different color for already visited links */
+#chat .text a:visited {
+	color: #426272;
+}
+
+#chat-messages {
+	font-size: 12px;
+}
