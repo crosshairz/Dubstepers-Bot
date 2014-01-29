@@ -1,5 +1,5 @@
 //GAMEBOT
-
+boolean power =false;
 
 Version = "1.0.1";
 
@@ -16,9 +16,10 @@ if(data.message.indexOf('G!') === 0){
             }
   switch(command[0].toLowerCase()){          
             
-            
-            
-            
+case on:
+if(power == false){
+}
+ end           
             
             
             
