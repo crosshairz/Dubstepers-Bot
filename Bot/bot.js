@@ -473,7 +473,7 @@ botMethods.djAdvanceEvent = function(data){
                     break
                     
                     case "likeroom":
-                        API.sendChat("If you like this room: refer your friends and add a bookmark/favorite to us in your browser.");
+                        API.sendChat("If you like this room: refer your friends, add a bookmark/favorite to us in your browser, and come back often. :)");
                     break
                     
                     case "rules":
