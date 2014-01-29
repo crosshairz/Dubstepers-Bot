@@ -18,13 +18,20 @@ if(data.message.indexOf('G!') === 0){
             
 case on:
 if(power == false){
+power = true;
+API.sendChat("GameBot is now ON");
+}else{
+API.sendChat("GameBot is already ON");
 }
  end           
-            
-            
-            
-            
-            
+case off:
+if(power == true){
+power = false;
+API.sendChat("GameBot is now OFF");
+}else{
+ API.sendChat("GameBot is already OFF");           
+}    
+end
 }}
 
 
