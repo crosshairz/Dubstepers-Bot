@@ -32,7 +32,6 @@ API.sendChat("GameBot is now OFF");
  API.sendChat("GameBot is already OFF");           
 }    
 break;
-if(power)        
   }
   if(power){
   switch(command[0].toLowerCase()){        
