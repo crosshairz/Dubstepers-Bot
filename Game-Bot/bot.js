@@ -1,9 +1,9 @@
 //GAMEBOT
 power = true;
 
-Version = "1.0.3";
+Version = "0.0.3";
 
-API.sendChat("Running Dubsteper's-GameBot Script Version " + Version);
+API.sendChat("Running Dubsteper's-GameBot BETA Script Version " + Version);
 
 API.on(API.CHAT, function(data){
 if(data.message.indexOf('.') === 0){
