@@ -644,7 +644,7 @@ botMethods.djAdvanceEvent = function(data){
                             var randomSentence = Math.floor(Math.random() * 3);
                             switch(randomSentence){
                                 case 0:
-                                    API.sendChat("@" + crowd[randomUser].username + ", take this " + mubBot.misc.tacos[randomTaco] + ", you b*tch!");
+                                    API.sendChat("@" + crowd[randomUser].username + ", take this " + mubBot.misc.tacos[randomTaco] + ", you fluppy chicken!");
                                     break;
                                 case 1:
                                     API.sendChat("@" + crowd[randomUser].username + ", quickly! Eat this " + mubBot.misc.tacos[randomTaco] + " before I do!");
@@ -665,7 +665,7 @@ botMethods.djAdvanceEvent = function(data){
                             var randomSentence = Math.floor(Math.random() * 3);
                             switch(randomSentence){
                                 case 0:
-                                    API.sendChat("@" + botMethods.cleanString(command[1]) + ", take this " + mubBot.misc.tacos[randomTaco] + ", you b*tch!");
+                                    API.sendChat("@" + botMethods.cleanString(command[1]) + ", take this " + mubBot.misc.tacos[randomTaco] + ", you fluppy chicken!");
                                     break;
                                 case 1:
                                     API.sendChat("@" + botMethods.cleanString(command[1]) + ", quickly! Eat this " + mubBot.misc.tacos[randomTaco] + " before I do!");
@@ -695,7 +695,7 @@ botMethods.djAdvanceEvent = function(data){
                                 case 0:
                                     API.sendChat("Hugs? Forget that!");
                                     setTimeout(function(){
-                                        API.sendChat("/me grabs @"+crowd[randomUser].username+"'s ass");
+                                        API.sendChat("/me gives @"+crowd[randomUser].username+" a slimey snail hug");
                                     }, 650);
                                     break;
                                 case 1:
@@ -720,7 +720,7 @@ botMethods.djAdvanceEvent = function(data){
                                 case 0:
                                     API.sendChat("Hugs? Forget that!");
                                     setTimeout(function(){
-                                        API.sendChat("/me grabs @"+botMethods.cleanString(command[1])+" 's ass");
+                                        API.sendChat("/me grabs @"+botMethods.cleanString(command[1])+" a slimey snail hug");
                                     }, 650);
                                     break;
                                 case 1:
