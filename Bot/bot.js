@@ -15,7 +15,7 @@ toSave.ruleSkip = ruleSkip;
 
 mubBot.misc.Rules = "1.Do not play troll songs 2.Do not ask for ranks 3.Follow the theme 4.Don\'t spam 5.No Advertising rooms, websites, etc.. 6.No songs over 5 minutes unless aproved by a mod 7.All videos must be appropriate for users under 14.";
 mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
-mubBot.misc.Themes = "Dubstep, Remix's, and techno";
+mubBot.misc.Themes = "Dubstep, Remix's, and techno.   No Deathstep!";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
 mubBot.misc.version = "1.1.0";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
@@ -47,7 +47,7 @@ mubBot.settings.removedFilter = true;
 //Dubstepers              [DJ-NEON]                  [Alexander7370]         [Foxdemon143]                  [Dubstepers-Bot]
 mubBot.admins = ["50aeaeb6c3b97a2cb4c25bd2", "524c910696fba55077fdaa12", "5214f9e196fba51fda062ea7", "5250be773b790311030fd7c3"];
 
-mubBot.filters.swearWords = ["slut","mofo","penis","penus","fuck","shit","bitch","cunt","twat","faggot","queer","dumbass","pussy","dick","cocksucker","asshole","vagina","tit","mangina","tits","cock","jerk","puta","puto"];
+mubBot.filters.swearWords = ["slut","mofo","penis","penus","fuck","shit","bitch","cunt","twat","faggot","queer","dumbass","pussy","dick","cocksucker","asshole","vagina","tit","mangina","tits","cock","jerk","puta","puto","fack","batch"];
 
 mubBot.filters.racistWords = ["nigger","kike","spick","porchmonkey","camel jockey","towelhead","towel head","chink","gook","porch monkey"];
 
