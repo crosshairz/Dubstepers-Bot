@@ -67,11 +67,13 @@ function djAdvanceEvent(data){
 }
 
 API.on(API.USER_JOIN, UserJoin);
-function UserJoin(user)
-{
+function UserJoin(user){
 API.sendChat("@" + user.username + " has joined the room.");
 }
 
+API.on(API.USER_LEAVE, function(data){
+API.sendChat("@" + data.username + " has left the room");
+});
 
 botMethods.skip = function(){
     setTimeout(function(){
