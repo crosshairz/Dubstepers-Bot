@@ -484,7 +484,7 @@ botMethods.djAdvanceEvent = function(data){
                     
                     case "themes":
                     case "theme":
-                        API.sendChat("The different themes aloud are: " + mubBot.misc.Themes);
+                        API.sendChat("The different themes allowed are: " + mubBot.misc.Themes);
                     break
                     
                     case "help":
