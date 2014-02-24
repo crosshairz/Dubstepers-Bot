@@ -17,7 +17,7 @@ mubBot.misc.Rules = "1.Do not play troll songs 2.Do not ask for ranks 3.Follow t
 mubBot.misc.Commands = "go to https://docs.google.com/document/d/1azqfktew9IJFP4gaXWbS9aLuKyyjPMOMeFNGxxeRCKY/edit?pli=1"
 mubBot.misc.Themes = "Dubstep, Remix's, and techno.   No Deathstep, rap, or reggae!";
 mubBot.misc.help = "Type !rules for rules and !commands for commands" //What Help will say
-mubBot.misc.version = "1.1.2";
+mubBot.misc.version = "1.1.3";
 mubBot.misc.origin = "This bot was created by Dubstepers, Alexander7370, and Foxdemon143. This bot and its script are copyrighted!";
 mubBot.misc.changelog = "Bot now auto fan's";
 mubBot.misc.ready = true;
@@ -1063,8 +1063,14 @@ botMethods.djAdvanceEvent = function(data){
     })
 }
  
- 
- 
+if (localStorage.usData === undefined) {
+    localStorage.usData = JSON.stringify({
+        counter: 0,
+    })
+}
+
+
+
 function fanEveryone(data) {
     var relationship = require('app/models/TheUserModel');
     if (relationship.getRelationship(data.id) < 2) {
