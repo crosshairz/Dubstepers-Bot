@@ -485,7 +485,7 @@ botMethods.djAdvanceEvent = function(data){
                         botMethods.save();
                         break;
                     case "rankhelp":
-                        API.sendChat("To rank up: Come to this room often, Refer your friends, advertise this room, follow the rules, and be kind to the community.");
+                        API.sendChat("To rank up: Come to this room often, Refer your friends, follow the rules, be kind to the community, and use commonsence.");
                     break
                     
                     case "likeroom":
