@@ -47,7 +47,7 @@ mubBot.settings.removedFilter = true;
 //Dubstepers              [DJ-NEON]                  [Alexander7370]         [Foxdemon143]                  [Dubstepers-Bot]
 mubBot.admins = ["50aeaeb6c3b97a2cb4c25bd2", "524c910696fba55077fdaa12", "5214f9e196fba51fda062ea7", "5250be773b790311030fd7c3"];
 
-mubBot.filters.swearWords = ["slut","mofo","penis","penus","fuck","shit","bitch","cunt","twat","faggot","queer","dumbass","pussy","dick","cocksucker","asshole","vagina","tit","mangina","tits","cock","jerk","puta","puto","fack","batch"];
+mubBot.filters.swearWords = ["slut","mofo","penis","penus","fuck","shit","bitch","cunt","twat","faggot","queer","dumbass","pussy","dick","cocksucker","asshole","vagina","tit","mangina","tits","cock","jerk","puta","puto","fack","batch","fak","biach","fag","fagg"];
 
 mubBot.filters.racistWords = ["nigger","kike","spick","porchmonkey","camel jockey","towelhead","towel head","chink","gook","porch monkey"];
 
