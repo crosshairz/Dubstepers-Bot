@@ -1088,13 +1088,4 @@ API.on(API.USER_JOIN, fanEveryone);
     API.sendChat('/me : Running Dubstepers Script '+mubBot.misc.version)
    
  case 'off'
-                    API.off(API.DJ_ADVANCE, djadvanceevent);
-                    API.off(API.DJ_ADVANCE, listener);
-                    API.off(API.DJ_ADVANCE, woot);
-                    API.off(API.USER_JOIN);
-                    API.off(API.USER_LEAVE);
-                    API.off(API.USER_FAN);
-                    API.off(API.CURATE_UPDATE);
-                    API.off(API.DJ_ADVANCE);
-                    API.off(API.VOTE_UPDATE);
                     API.off(API.CHAT);
