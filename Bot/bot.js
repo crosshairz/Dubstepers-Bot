@@ -1087,5 +1087,3 @@ API.on(API.USER_JOIN, fanEveryone);
 
     API.sendChat('/me : Running Dubstepers Script '+mubBot.misc.version)
    
- case 'off'
-                    API.off(API.CHAT);
