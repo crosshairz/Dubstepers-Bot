@@ -11,7 +11,7 @@ mubBot.pubVars = {};
 
 var BootMessage;
 
-API.sendChat('/me : Running Derpstepers Script Version 2.0.1');
+API.sendChat('/me : Running Dubsteper's Script Version 2.0.1');
 
 getID = function(username){
     var users = API.getUsers();
