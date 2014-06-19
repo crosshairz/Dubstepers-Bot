@@ -1045,7 +1045,7 @@ botMethods.djAdvanceEvent = function(data){
 
 
     botMethods.loadStorage();
-    console.log("Running Rᴇᴅsᴛᴏɴᴇʀ Script version " + mubBot.misc.version);
+    console.log("Running Dubsteper's Script version " + mubBot.misc.version);
 
     setTimeout(function(){
         $.getScript('');
