@@ -182,6 +182,7 @@ botMethods.djAdvanceEvent = function(data){
                 }
             }
             API.moderateDeleteChat(data.chatID);
+            console.log(data.from + '');
             if(mubBot.misc.ready || mubBot.admins.indexOf(fromID) > -1 || API.getUser(data.fromID).permission > 1){
                 switch(command[0].toLowerCase()){
                     case "ping":
