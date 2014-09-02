@@ -1087,5 +1087,5 @@ function fanEveryone(data) {
 
 API.on(API.USER_JOIN, fanEveryone);
 
-    API.sendChat('/me : Running Dubstepers Script '+mubBot.misc.version)
+    API.sendChat('/me : Running Dubstepers Script '+mubBot.misc.version);
    
