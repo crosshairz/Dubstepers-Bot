@@ -11,7 +11,34 @@ mubBot.pubVars = {};
 
 var BootMessage;
 
-API.sendChat('/me : Running Dubsteper's Script Version 2.0.1');
+API.sendChat('/me : Running Dubsteper\'s Script Version 2.0.1');
+
+Startup = function(version){
+    Randomize = Math.floor((Math.random() * 10) + 1);
+    
+    switch(Randomize){
+        case 1:
+            return 'Dubsteper\'s Bot Is Now At Your Service '
+        case 2:
+            return 'I\'m Up And Running'
+        case 3:
+            return 'I May Not Be Jarvis But I Sure Am Hell Of An AI'
+        case 4:
+            return '4'
+        case 5:
+            return '5'
+        case 6:
+            return '6'
+        case 7:
+            return '7'
+        case 8:
+            return '8'
+        case 9
+            return '9'
+        default:
+            return 'Dubsteper\'s Room Bot At Your Service'
+    }
+}
 
 getID = function(username){
     var users = API.getUsers();
