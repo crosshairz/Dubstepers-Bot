@@ -26,7 +26,7 @@ Startup = function(versionrun){
 				API.sendChat('/me I\'m up and running! ' + vermessage);
 				break;
 			case 3:
-				API.sendChat('/me I may not be Jarvis, but I sure am one hell of an AI      ' + vermessage);
+				API.sendChat('/me I may not be Jarvis, but I sure am one hell of an AI_________' + vermessage);
 				break;
 			case 4:
 				API.sendChat('/me Bot is now online! ' + vermessage);
