@@ -16,7 +16,7 @@ version = " 0.1 Beta";
 Startup = function(versionrun){
 
     Randomize = Math.floor((Math.random() * 10) + 1);
-	vermessage = (": Running Version" + versionrun);
+	vermessage = (": Running Version " + versionrun);
 	
 		switch(Randomize){
 			case 1:
