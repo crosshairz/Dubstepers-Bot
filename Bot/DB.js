@@ -16,23 +16,23 @@ version = " 0.1 Beta";
 Startup = function(versionrun){
 
     Randomize = Math.floor((Math.random() * 10) + 1);
-	vermessage = ("    Running Version: " + versionrun);
+	vermessage = ("    -Running Version: " + versionrun);
 	
 		switch(Randomize){
 			case 1:
-				API.sendChat('/me Dubsteper\'s bot is now at your service        ' + vermessage);
+				API.sendChat('/me Dubsteper\'s bot is now at your service---' + vermessage);
 				break;
 			case 2:
-				API.sendChat('/me I\'m up and running! ' + vermessage);
+				API.sendChat('/me I\'m up and running! ---' + vermessage);
 				break;
 			case 3:
-				API.sendChat('/me I may not be Jarvis, but I sure am one hell of an AI_________' + vermessage);
+				API.sendChat('/me I may not be Jarvis, but I sure am one hell of an AI! ---' + vermessage);
 				break;
 			case 4:
-				API.sendChat('/me Bot is now online! ' + vermessage);
+				API.sendChat('/me Bot is now online! ---' + vermessage);
 				break;
 			case 5:
-				API.sendChat('/me I am simply one hell of a bot' + vermessage);
+				API.sendChat('/me I am simply one hell of a bot! ---' + vermessage);
 				break;
 			case 6:
 				API.sendChat('/me  6');
@@ -47,7 +47,7 @@ Startup = function(versionrun){
 				API.sendChat('/me 9');
 				break;
 			default:
-				API.sendChat('/me Dubsteper\'s room bot at your service' = varmessage)
+				API.sendChat('/me Dubsteper\'s room bot at your service! ---' = varmessage)
 				break;
 		}
 };
