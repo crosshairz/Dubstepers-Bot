@@ -9,36 +9,48 @@ mubBot.filters = {};
 botMethods = {};
 mubBot.pubVars = {};
 
-var BootMessage;
 
-API.sendChat('/me : Running Dubsteper\'s Script Version 2.0.1');
+version = "0.1 Beta";
 
-Startup = function(version){
+
+Startup = function(versionrun){
+
     Randomize = Math.floor((Math.random() * 10) + 1);
-    
-    switch(Randomize){
-        case 1:
-            return 'Dubsteper\'s Bot Is Now At Your Service '
-        case 2:
-            return 'I\'m Up And Running'
-        case 3:
-            return 'I May Not Be Jarvis But I Sure Am Hell Of An AI'
-        case 4:
-            return '4'
-        case 5:
-            return '5'
-        case 6:
-            return '6'
-        case 7:
-            return '7'
-        case 8:
-            return '8'
-        case 9
-            return '9'
-        default:
-            return 'Dubsteper\'s Room Bot At Your Service'
-    }
-}
+	vermessage = (": Running Version" + versionrun);
+	
+		switch(Randomize){
+			case 1:
+				API.sendChat('/me Dubsteper\'s Bot Is Now At Your Service ' + vermessage);
+				break;
+			case 2:
+				API.sendChat('/me I\'m Up And Running ' + vermessage);
+				break;
+			case 3:
+				API.sendChat('/me I May Not Be Jarvis But I Sure Am Hell Of An AI ' + vermessage);
+				break;
+			case 4:
+				API.sendChat('/me 4');
+				break;
+			case 5:
+				API.sendChat('/me 5');
+				break;
+			case 6:
+				API.sendChat('/me 6');
+				break;
+			case 7:
+				API.sendChat('/me 7');
+				break;
+			case 8:
+				API.sendChat('/me 8');
+				break;
+			case 9:
+				API.sendChat('/me 9');
+				break;
+			default:
+				API.sendChat('/me Dubsteper\'s Room Bot At Your Service')
+				break;
+		}
+};
 
 getID = function(username){
     var users = API.getUsers();
@@ -53,9 +65,7 @@ getID = function(username){
     return "notFound";
 }; 
 
-
-
-//COMMANDZ
+//Commands
 API.on(API.CHAT, function(data){
         if(data.message.indexOf('!') === 0){
             var msg = data.message, from = data.from, fromID = data.fromID;
@@ -96,3 +106,9 @@ API.on(API.CHAT, function(data){
         
         }//End of Commands
 });//COMMAND END!!!!
+
+
+
+
+//Main Lines
+Startup(version);
