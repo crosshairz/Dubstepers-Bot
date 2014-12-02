@@ -1,16 +1,6 @@
 //this is the bot script for the new last plug API
 
-var mubBot = {};
-var ruleSkip = {};
-mubBot.misc = {};
-mubBot.settings = {};
-mubBot.moderators = {};
-mubBot.filters = {};
-botMethods = {};
-mubBot.pubVars = {};
-
-
-version = " 0.1 Beta";
+version = " 0.4 Beta";
 
 
 Startup = function(versionrun){
