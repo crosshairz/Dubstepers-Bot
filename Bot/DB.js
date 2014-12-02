@@ -1,6 +1,6 @@
 //this is the bot script for the new last plug API
 
-version = " 0.7 Beta";
+version = " 0.8 Alpha";
 
 
 Startup = function(versionrun){
@@ -16,7 +16,7 @@ Startup = function(versionrun){
 				API.sendChat('/me I\'m up and running!' + vermessage);
 				break;
 			case 3:
-				API.sendChat('/me I may not be Jarvis, but I sure am one hell of an AI!' + vermessage);
+				API.sendChat('/me I may not be Jarvis, but I sure am one hell of a bot!' + vermessage);
 				break;
 			case 4:
 				API.sendChat('/me Bot is now online!' + vermessage);
@@ -65,6 +65,7 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
+            var numCommands++;
             API.moderateDeleteChat(data.cid);
 			switch(command[0].toLowerCase()){
                     
@@ -73,7 +74,7 @@ API.on(API.CHAT, function(data){
                 break;//PING END
                 
                 case "info":
-                        API.sendChat("WORK IN PROGRESS COMMAND");
+                        API.sendChat(numCommands + "");
                 break;//INFO END
                 
                 case "getid":
