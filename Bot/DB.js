@@ -10,7 +10,7 @@ botMethods = {};
 mubBot.pubVars = {};
 
 
-version = "0.1 Beta";
+version = " 0.1 Beta";
 
 
 Startup = function(versionrun){
