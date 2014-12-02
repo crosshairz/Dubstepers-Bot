@@ -92,7 +92,9 @@ API.on(API.CHAT, function(data){
                 break; //SWAPDOWN END
                 
         }//End of Commands
-);//COMMAND END!!!!
+        
+        
+});//COMMAND FUNCTION END!!!!
 
 
 
