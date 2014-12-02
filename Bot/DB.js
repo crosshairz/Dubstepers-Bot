@@ -1,6 +1,6 @@
 //this is the bot script for the new last plug API
 
-version = " 0.4 Beta";
+version = " 0.7 Beta";
 
 
 Startup = function(versionrun){
