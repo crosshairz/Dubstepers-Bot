@@ -65,7 +65,7 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            //API.moderateDeleteChat(data.uid);
+            API.moderateDeleteChat(data.cid);
 			switch(command[0].toLowerCase()){
                     
                 case "ping":
