@@ -68,7 +68,7 @@ API.on(API.CHAT, function(data){
 			switch(command[0].toLowerCase()){
                     
                 case "ping":
-                        API.sendChat("@"+data.from+" PONG");
+                        API.sendChat("@"+from+" PONG");
                 break;//PING END
                 
                 case "info":
@@ -78,18 +78,18 @@ API.on(API.CHAT, function(data){
                 case "getid":
                         API.sendChat(data.fromID); 
                 break;//GETID END
-                /*
+                
                 case "swapup":
                         if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12"){
-                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
+                                API.moderateMoveDJ(fromID, posWait = API.getWaitListPosition(fromID));
                         };
                 break;
                 
                 case "swapdown":
                         if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12")
-                                API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
+                                API.moderateMoveDJ(fromID, posWait = API.getWaitListPosition(fromID) + 2);
                         };
-                break; */
+                break; 
                 
         }//End of Commands
 }});//COMMAND END!!!!
