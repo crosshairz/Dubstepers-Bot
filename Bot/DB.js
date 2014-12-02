@@ -58,7 +58,7 @@ getID = function(username){
 //Commands
 API.on(API.CHAT, function(data){
         if(data.message.indexOf('!') === 0){
-            var msg = data.message, from = data.from, fromID = data.fromID;
+            var msg = data.message, from = data.un, fromID = data.uid;
             var command = msg.substring(1).split(' ');
             if(typeof command[2] != "undefined"){
                 for(var i = 2; i<command.length; i++){
