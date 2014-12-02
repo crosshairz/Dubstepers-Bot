@@ -86,7 +86,7 @@ API.on(API.CHAT, function(data){
                 break;//SWAPUP END
                 
                 case "swapdown":
-                        if(data.uid == "5214f9e196fba51fda062ea7" || data.uid == "524c910696fba55077fdaa12")
+                        if(data.uid == "5214f9e196fba51fda062ea7" || data.uid == "524c910696fba55077fdaa12"){
                                 API.moderateMoveDJ(data.uid, posWait = API.getWaitListPosition(uid) + 2);
                         };
                 break; //SWAPDOWN END
