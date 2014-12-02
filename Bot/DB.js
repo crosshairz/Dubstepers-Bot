@@ -47,7 +47,7 @@ Startup = function(versionrun){
 				API.sendChat('/me 9');
 				break;
 			default:
-				API.sendChat('/me Dubsteper\'s room bot at your service')
+				API.sendChat('/me Dubsteper\'s room bot at your service' = varmessage)
 				break;
 		}
 };
