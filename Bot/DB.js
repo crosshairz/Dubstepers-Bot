@@ -20,13 +20,13 @@ Startup = function(versionrun){
 	
 		switch(Randomize){
 			case 1:
-				API.sendChat('/me Dubsteper\'s Bot Is Now At Your Service ' + vermessage);
+				API.sendChat('/me Dubsteper\'s bot is now at your service ' + vermessage);
 				break;
 			case 2:
-				API.sendChat('/me I\'m Up And Running ' + vermessage);
+				API.sendChat('/me I\'m up and running ' + vermessage);
 				break;
 			case 3:
-				API.sendChat('/me I May Not Be Jarvis But I Sure Am Hell Of An AI ' + vermessage);
+				API.sendChat('/me I may not be Jarvis but I sure am a hell of an AI ' + vermessage);
 				break;
 			case 4:
 				API.sendChat('/me 4');
@@ -47,7 +47,7 @@ Startup = function(versionrun){
 				API.sendChat('/me 9');
 				break;
 			default:
-				API.sendChat('/me Dubsteper\'s Room Bot At Your Service')
+				API.sendChat('/me Dubsteper\'s room bot at your service')
 				break;
 		}
 };
