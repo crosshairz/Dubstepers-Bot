@@ -82,27 +82,27 @@ API.on(API.CHAT, function(data){
                     
                 case"ping":
                         API.sendChat("@"+data.from+" PONG");
-                break//PING END
+                break;//PING END
                 
                 case"info":
                         API.sendChat("WORK IN PROGRESS COMMAND");
-                break//INFO END
+                break;//INFO END
                 
                 case"getid":
                         API.sendChat(data.fromID); 
-                break//GETID END
+                break;//GETID END
                 
                 case"swapup":
                         if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12"){
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID));
                         };
-                break
+                break;
                 
                 case"swapdown":
                         if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12")
                                 API.moderateMoveDJ(data.fromID, posWait = API.getWaitListPosition(data.fromID) + 2);
                         };
-                break//
+                break;//
         
         }//End of Commands
 });//COMMAND END!!!!
