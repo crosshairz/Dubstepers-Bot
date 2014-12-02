@@ -1,15 +1,3 @@
-//this is the bot script for the new last plug API
-
-var mubBot = {};
-var ruleSkip = {};
-mubBot.misc = {};
-mubBot.settings = {};
-mubBot.moderators = {};
-mubBot.filters = {};
-botMethods = {};
-mubBot.pubVars = {};
-
-var BootMessage;
 
 API.sendChat('/me : Running Dubsteper\'s Script Version 2.0.1');
 
