@@ -11,7 +11,6 @@ Startup = function(versionrun){
 		switch(Randomize){
 			case 1:
 				API.sendChat('/me Dubsteper\'s bot is now at your service' + vermessage);
-					API.sendChat(vermessage);
 				break;
 			case 2:
 				API.sendChat('/me I\'m up and running!' + vermessage);
