@@ -94,7 +94,7 @@ API.on(API.CHAT, function(data){
         }//End of Commands
         
         
-});//COMMAND FUNCTION END!!!!
+}});//COMMAND FUNCTION END!!!!
 
 
 
