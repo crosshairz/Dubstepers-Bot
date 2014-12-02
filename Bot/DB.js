@@ -65,7 +65,6 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            console.log(data);
             API.moderateDeleteChat(data.cid);
 			switch(command[0].toLowerCase()){
                     
@@ -92,6 +91,10 @@ API.on(API.CHAT, function(data){
                                 API.moderateMoveDJ(data.uid, posWait = API.getWaitListPosition(uid) + 2);
                         };
                 break; //SWAPDOWN END
+                
+                case "logdata":
+                	console.log(data);
+                break;
                 
         }//End of Commands
         
