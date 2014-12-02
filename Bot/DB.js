@@ -68,7 +68,7 @@ API.on(API.CHAT, function(data){
 			switch(command[0].toLowerCase()){
                     
                 case "ping":
-                        API.sendChat("@"+from+" PONG");
+                        API.sendChat("@"+data.un+" PONG");
                 break;//PING END
                 
                 case "info":
@@ -76,20 +76,20 @@ API.on(API.CHAT, function(data){
                 break;//INFO END
                 
                 case "getid":
-                        API.sendChat(data.fromID); 
+                        API.sendChat(data.uid); 
                 break;//GETID END
                 
                 case "swapup":
-                        if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12"){
-                                API.moderateMoveDJ(fromID, posWait = API.getWaitListPosition(fromID));
+                        if(data.uid == "5214f9e196fba51fda062ea7" || data.uid == "524c910696fba55077fdaa12"){
+                                API.moderateMoveDJ(data.uid, posWait = API.getWaitListPosition(data.uid));
                         };
-                break;
+                break;//SWAPUP END
                 
                 case "swapdown":
-                        if(data.fromID == "5214f9e196fba51fda062ea7" || data.fromID == "524c910696fba55077fdaa12")
-                                API.moderateMoveDJ(fromID, posWait = API.getWaitListPosition(fromID) + 2);
+                        if(data.uid == "5214f9e196fba51fda062ea7" || data.uid == "524c910696fba55077fdaa12")
+                                API.moderateMoveDJ(data.uid, posWait = API.getWaitListPosition(uid) + 2);
                         };
-                break; 
+                break; //SWAPDOWN END
                 
         }//End of Commands
 }});//COMMAND END!!!!
