@@ -1,8 +1,11 @@
 //this is the bot script for the new last plug API
 
-version = " 0.8 Alpha";
+var version = " 0.8 Alpha";
+var numCommandsEx = 0;//Number of Commands Executed
 
 
+
+//300000 Ignore
 Startup = function(versionrun){
 
     Randomize = Math.floor((Math.random() * 10) + 1);
@@ -65,7 +68,7 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            var numCommands=numCommands++;
+            numCommandsEx++;//Number of Commands Executed
             API.moderateDeleteChat(data.cid);
 			switch(command[0].toLowerCase()){
                     
@@ -74,7 +77,8 @@ API.on(API.CHAT, function(data){
                 break;//PING END
                 
                 case "info":
-                        API.sendChat(numCommands + "");
+                case "status":
+                        API.sendChat("Status: " + "Number of Commands Executed : " + numCommandsEx + " : ");//Number of commands Executed, Time since bot loaded, etc.
                 break;//INFO END
                 
                 case "getid":
