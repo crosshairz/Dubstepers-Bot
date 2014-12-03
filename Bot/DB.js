@@ -1,6 +1,6 @@
 //this is the bot script for the new last plug API
 
-var version = " 0.8 Alpha";
+var version = " 1.0 Alpha";
 var numCommandsEx = 0;//Number of Commands Executed
 
 
