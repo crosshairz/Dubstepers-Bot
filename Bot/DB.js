@@ -65,7 +65,7 @@ API.on(API.CHAT, function(data){
                     command[1] = command[1] + ' ' + command[i];
                 }
             }
-            var numCommands++;
+            var numCommands=numCommands++;
             API.moderateDeleteChat(data.cid);
 			switch(command[0].toLowerCase()){
                     
