@@ -103,11 +103,11 @@ API.on(API.CHAT, function(data){
                 
                 case "help":
                 case "rules":
-                case: "theme":
-                case: "op":
-                case: "oplist":
-                case: "rankup":
-                	API.sendChat("Rules , Theme , OP songs - http://goo.gl/knlFMW");
+                case "theme":
+                case "op":
+                case "oplist":
+                case "rankup":
+                	API.sendChat('Rules , Theme , OP songs - http://goo.gl/knlFMW');
                 break;
                 
         }//End of Commands
