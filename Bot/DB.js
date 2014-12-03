@@ -97,6 +97,15 @@ API.on(API.CHAT, function(data){
                 	console.log(data);
                 break;
                 
+                case "help":
+                case "rules":
+                case: "theme":
+                case: "op":
+                case: "oplist":
+                case: "rankup":
+                	API.sendChat("Rules , Theme , OP songs - http://goo.gl/knlFMW");
+                break;
+                
         }//End of Commands
         
         
