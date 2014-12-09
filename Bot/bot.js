@@ -368,7 +368,7 @@ botMethods.djAdvanceEvent = function(data){
             }
             if(mubBot.misc.ready || mubBot.admins.indexOf(fromID) > -1 || API.getUser(fromID).permission > 1){
                 switch(command[0].toLowerCase()){
-                    /* commented out because the bot isn't running on a dedicated bot account
+                    commented out because the bot isn't running on a dedicated bot account
                      case "meh":
                      if(API.getUser(data.fromID).permission > 1 || mubBot.admins.indexOf(fromID) > -1) $("#button-vote-negative").click();
                      break;
