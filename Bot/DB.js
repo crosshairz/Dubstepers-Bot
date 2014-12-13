@@ -9,7 +9,7 @@ var numCommandsEx = 0;//Number of Commands Executed
 Startup = function(versionrun){
 
     Randomize = Math.floor((Math.random() * 10) + 1);
-	vermessage = (" ====== Running Version: " + versionrun);
+	vermessage = (" _________________________ Running Version: " + versionrun);
 	
 		switch(Randomize){
 			case 1:
