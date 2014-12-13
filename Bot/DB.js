@@ -1,6 +1,6 @@
 //this is the bot script for the new last plug API
 
-var version = " V2 version 1.1 Alpha";
+var version = " Dubsteper's BOT V2 1.1 Alpha";
 var numCommandsEx = 0;//Number of Commands Executed
 
 
