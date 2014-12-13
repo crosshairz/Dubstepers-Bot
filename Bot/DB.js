@@ -27,7 +27,7 @@ Startup = function(versionrun){
 			case 5:
 				API.sendChat('/me I am simply one hell of a bot!' + vermessage);
 				break;
-			case 6:
+		/*	case 6:
 				API.sendChat('/me  6' + vermessage);
 				break;
 			case 7:
@@ -39,6 +39,7 @@ Startup = function(versionrun){
 			case 9:
 				API.sendChat('/me 9' + vermessage);
 				break;
+		*/
 			default:
 				API.sendChat('/me Dubsteper\'s room bot at your service!' + vermessage);
 				break;
