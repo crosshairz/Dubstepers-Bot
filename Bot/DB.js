@@ -12,7 +12,7 @@ Startup = function(versionrun){
 	vermessage = (" _________________________ Running Version: " + versionrun);
 	
 		switch(Randomize){
-			case 1:
+			/*case 1:
 				API.sendChat('/me Dubsteper\'s bot is now at your service' + vermessage);
 				break;
 			case 2:
@@ -41,7 +41,7 @@ Startup = function(versionrun){
 				break;
 		*/
 			default:
-				API.sendChat('/me Dubsteper\'s room bot at your service!' + vermessage);
+				API.sendChat('/me Merry Christmas everyone. Welcome to Dubsteper's.' + vermessage);
 				break;
 		}
 };
